@@ -24,7 +24,7 @@ CHIP RAM16K {
               sel=address[0..1], out=out);
 
     DMux4Way(a=l0, b=l1, c=l2, d=l3,
-            sel=address[0..1], in=load);
+                sel=address[0..1], in=load);
 
 
 }
